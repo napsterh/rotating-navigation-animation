@@ -4,7 +4,4 @@ const con = document.querySelector('.container');
 
 open.addEventListener( 'click', () => con.classList.add('show-nav') )
 
-close.addEventListener( 'click', () => alert('hi') )
-
-
-console.log('con', con)
+close.addEventListener( 'click', () => con.classList.remove('show-nav'))
